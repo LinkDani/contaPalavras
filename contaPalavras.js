@@ -7,4 +7,4 @@ const words = function(frase){
 
 }
 
-module.exports = { contaPalavras }
+module.exports = { words }
