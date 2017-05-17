@@ -1,9 +1,10 @@
-function words([].split(' ').length) {
+const words = function(frase){
 
-  let r = {resultado: []};
+  const Quantidade = frase.split(' ').length;
 
- return r;
+  console.log({ Quantidade: valor });
+  return { Quantidade: valor }
 
- }
+}
 
- module.exports = { contaVotos };
+module.exports = { contaPalavras }

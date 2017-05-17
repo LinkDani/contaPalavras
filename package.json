@@ -4,7 +4,7 @@
   "description": "",
   "main": "contaPalavras.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -v"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LinkDani/contaPalavras#readme",
   "dependencies": {
-    "code": "^4.0.0"
+    "code": "^4.0.0",
+    "lab": "^13.1.0"
   }
 }
