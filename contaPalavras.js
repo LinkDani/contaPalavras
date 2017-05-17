@@ -1,10 +1,6 @@
-const words = function(frase){
+const contaPalavras = function(frase){
 
-  const Quantidade = frase.split(' ').length;
-
-  console.log({ Quantidade: valor });
-  return { Quantidade: valor }
-
+  return frase.split(' ').length;
 }
 
-module.exports = { words }
+module.exports = { contaPalavras }
